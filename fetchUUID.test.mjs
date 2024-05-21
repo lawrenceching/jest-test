@@ -12,7 +12,7 @@ test(`mock node-fetch`, async () => {
         default: fetch,
     }));
 
-    const fetchUUID = (await import("./fetchUuid.mjs")).fetchUUID
+    const fetchUUID = (await import("./fetchUUID.mjs")).fetchUUID
     
     const uuid = await fetchUUID()
 
